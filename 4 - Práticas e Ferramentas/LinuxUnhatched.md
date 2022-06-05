@@ -1,4 +1,4 @@
-**Bem-vindos!**
+ **Bem-vindos!**
 
 Olá, e bem-vindos ao módulo NDG Linux Unhatched! Estamos muito entusiasmados em oferecer-lhe esta breve introdução ao mundo do Linux. Antes de começar, gostaríamos de aproveitar a oportunidade para explicar a intenção e o objetivo deste módulo.
 
@@ -10,7 +10,7 @@ Esperamos que você ache o módulo NDG Linux Unhatched útil. Parabéns por dar 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Por que aprender Linux?
+ **Por que aprender Linux?**
 
 O campo da Tecnologia da Informação (TI) está cheio de oportunidades. Para indivíduos que desejam seguir uma carreira em TI, um dos maiores desafios pode ser decidir como começar. Muitas vezes, as pessoas estão motivadas a aprender novas habilidades que lhes permitirão buscar oportunidades maiores e melhores tanto na sua vida pessoal como profissional. Aprender uma nova habilidade requer tempo e disciplina, mas com a motivação certa, não precisa ser doloroso. Nesta seção, discutiremos por que o tempo e o esforço que você investir no aprendizado do Linux serão benéficos para você; e lembre-se, todos que trabalham em TI tiveram que começar em algum lugar.
 
@@ -61,7 +61,7 @@ Como você pode ver, há muitas razões para aprender e explorar o Linux!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Sintaxe de Comando Básico
+ **Sintaxe de Comando Básico**
 
 Este módulo trata exclusivamente da CLI ou da interface de linha de comando, em vez de uma GUI ou interface gráfica do usuário que você possa estar familiarizado. O terminal CLI é uma ferramenta poderosa que frequentemente é o principal método usado para administrar pequenos dispositivos de baixo consumo de energia, servidores de computação em nuvem extremamente capazes e tudo o que há entre eles. Uma compreensão básica do terminal é essencial para diagnosticar e corrigir a maioria dos sistemas baseados em Linux. Como o Linux agora se tornou tão onipresente, mesmo aqueles que planejam trabalhar principalmente com sistemas que não utilizam o kernel Linux podem se beneficiar de ter uma compreensão básica do terminal.
 
@@ -94,7 +94,7 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Argumentos
+ **Argumentos**
 
 comando [opcoes…] [argumentos…]
 
@@ -118,7 +118,7 @@ Linux é código aberto. Linux é desenvolvido por uma comunidade, você visuali
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Opções
+ **Opções**
 
 comando [opcoes…] [argumentos…]
 
@@ -197,7 +197,7 @@ Continue adicionando opções -v para ver quantas respostas únicas você pode o
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Impressão do Diretório de Trabalho
+ **Impressão do Diretório de Trabalho**
 
 Para descobrir onde você está atualmente localizado dentro do sistema de arquivos, o comando pwd pode ser usado. O comando pwd imprime o diretório de trabalho, sua localização atual dentro do sistema de arquivos:
 
@@ -225,7 +225,7 @@ sysadmin@localhost:/etc/calendar$
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Alterando Diretórios
+ **Alterando Diretórios**
 
 Os arquivos são usados para armazenar dados tais como texto, gráficos e programas. Os diretórios são um tipo de arquivo usado para armazenar outros arquivos- eles fornecem uma estrutura organizacional hierárquica. A imagem abaixo mostra uma versão abreviada da estrutura do sistema de arquivos nas máquinas virtuais.
 Hierarquia do sistema de arquivos com diretório root no topo. Sem diretórios destacados.
@@ -330,7 +330,7 @@ sysadmin@localhost:~$
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Listando arquivos
+ **Listando arquivos**
 
 O comando ls é usado para listar o conteúdo de um diretório. Você já o viu sendo usado algumas vezes antes em exemplos, mas esta página ajudará a garantir que você esteja confortável com seu uso.
 
@@ -511,7 +511,7 @@ syslog   fsck      dmesg     bootstrap.log  apache2
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Acesso administrativo
+ **Acesso administrativo**
 
 Existem muitos comandos Linux que lidam com informações confidenciais, como senhas, hardware do sistema, ou de outra forma operam sob outras circunstâncias excepcionais. Impedir que usuários regulares executem esses comandos ajuda a proteger o sistema. Fazer login como usuário root fornece acesso administrativo, permitindo a execução de alguns dos comandos privilegiados.
 O Comando su
@@ -616,7 +616,7 @@ Uma vez concluído o comando, observe que o prompt não foi alterado, você aind
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Permissões
+ **Permissões**
 
 As permissões determinam as maneiras pelas quais diferentes usuários podem interagir com um arquivo ou diretório. Ao listar um arquivo com o comando ls -l, a saída inclui informações de permissão. Para o exemplo, vamos usar um script chamado hello.sh localizado no diretório Documents:
 
@@ -685,7 +685,7 @@ Nesse cenário, o usuário sysadmin acaba tendo menos acesso a esse arquivo do q
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Alterando permissões de arquivo
+ **Alterando permissões de arquivo**
 
 O comando chmod é usado para alterar as permissões de um arquivo ou diretório. Somente o usuário root ou o usuário que possui o arquivo é capaz de alterar as permissões de um arquivo.
 
@@ -787,7 +787,7 @@ Isso indica que o “comando” deve ser executado a partir do diretório atual.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Alterando a propriedade do arquivo
+ **Alterando a propriedade do arquivo**
 
 Inicialmente, o proprietário de um arquivo é o usuário que o cria. O comando chown é usado para alterar a propriedade de arquivos e diretórios. Alterar o proprietário do usuário requer acesso administrativo. Um usuário regular não pode usar esse comando para alterar o proprietário do usuário de um arquivo, mesmo para dar a propriedade de um de seus próprios arquivos a outro usuário. No entanto, o comando chown também permite alterar a propriedade do grupo, o que pode ser feito pela root ou o proprietário do arquivo.
 
@@ -861,7 +861,7 @@ sysadmin@localhost:~/Documents$ sudo ./hello.sh
  
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Exibindo Arquivos
+ **Exibindo Arquivos**
 
 Existem alguns comandos Linux disponíveis para visualizar o conteúdo dos arquivos. O comando cat, que significa 'concatenate', é frequentemente usado para visualizar rapidamente o conteúdo de pequenos arquivos.
 
@@ -986,7 +986,7 @@ sysadmin@localhost:~/Documents$
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Copiando Arquivos
+ **Copiando Arquivos**
 
 Criar cópias de arquivos pode ser útil por vários motivos:
 
@@ -1029,7 +1029,7 @@ Também é necessário ter permissão de gravação e execução no diretório p
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Copiando Arquivos
+ **Copiando Arquivos**
 
 O comando dd é um utilitário para copiar arquivos ou partições inteiras no nível de bits.
 
@@ -1093,7 +1093,7 @@ dd if=/dev/sda of=/dev/sdb
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Mover arquivos
+ **Mover arquivos**
 
 O comando mv é usado para mover um arquivo de um local no sistema de arquivos para outro.
 
@@ -1144,7 +1144,7 @@ As permissões podem ter um impacto nos comandos de gerenciamento de arquivos, c
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Removendo arquivos
+ **Removendo arquivos**
 
 O comando rm é usado para excluir arquivos e diretórios. É importante ter em mente que arquivos e diretórios excluídos não entram em uma “lixeira” como acontece com sistemas operacionais voltados para a área de trabalho. Quando um arquivo é excluído com o comando rm, ele quase sempre desaparece permanentemente.
 
@@ -1182,7 +1182,7 @@ Para excluir um arquivo dentro de um diretório, um usuário deve ter permissão
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Filtragem de Entrada
+ **Filtragem de Entrada**
 
 O comando grep é um filtro de texto que irá procurar linhas de entrada e retorno que contenham uma correspondência para um determinado padrão.
 
@@ -1213,7 +1213,7 @@ O exemplo acima usa um termo de pesquisa simples como padrão, no entanto grep �
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Expressões Regulares
+ **Expressões Regulares**
 
 As expressões regulares têm duas formas comuns: básica e estendida. A maioria dos comandos que usam expressões regulares pode interpretar expressões regulares básicas. No entanto, expressões regulares estendidas não estão disponíveis para todos os comandos e uma opção de comando é normalmente necessária para que eles funcionem corretamente.
 
@@ -1236,7 +1236,7 @@ Caracteres Regex extendidos 	Significado
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Padrões básicos
+ **Padrões básicos**
 
 Expressões regulares são padrões que apenas certos comandos são capazes de interpretar. Expressões regulares podem ser expandidas para corresponder a determinadas sequências de caracteres no texto. Os exemplos exibidos nesta página farão uso de expressões regulares para demonstrar seu poder quando usado com o comando grep. Além disso, esses exemplos fornecem uma demonstração muito visual de como as expressões regulares funcionam, o texto correspondente será exibido em uma cor vermelha.
 
@@ -1452,7 +1452,7 @@ sysadmin@localhost:~/Documents$ cd ~
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Desligando
+ **Desligando**
 
 O comando shutdown faz com que o sistema seja desligado de forma segura. Todos os usuários conectados são notificados de que o sistema está sendo desativado e, nos últimos cinco minutos que antecederam o desligamento, novos logins são evitados.
 
@@ -1518,7 +1518,7 @@ Goodbye World!
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Configuração de rede
+ **Configuração de rede**
 
 O comando ifconfig significa “configuração de interface” e é usado para exibir informações sobre a configuração de rede.
 
@@ -1597,7 +1597,7 @@ logout
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Exibindo Processos
+ **Exibindo Processos**
 
 A execução de um comando resulta em algo chamado processo. No sistema operacional Linux, os processos são executados com os privilégios do usuário que executa o comando. Isso permite que os processos sejam limitados a determinados recursos com base na identidade do usuário.
 
@@ -1647,7 +1647,7 @@ sysadmin    95    79  0 19:43 pts/0        00:00:00 ps -ef
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Gerenciamento de pacotes
+ **Gerenciamento de pacotes**
 
 O gerenciamento de pacotes é um sistema pelo qual o software pode ser instalado, atualizado, consultado ou removido de um sistema de arquivos. No Linux, existem muitos sistemas diferentes de gerenciamento de pacotes de software diferentes, mas os dois mais populares são os do Debian e da Red Hat. As máquinas virtuais para este curso usam o Ubuntu, um derivado do Debian.
 
@@ -1775,7 +1775,7 @@ Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Atualizando senhas de usuário
+ **Atualizando senhas de usuário**
 
 O comando passwd é usado para atualizar a senha de um usuário. Os usuários só podem alterar suas próprias senhas, enquanto o usuário root pode atualizar a senha para qualquer usuário.
 
@@ -1835,7 +1835,7 @@ exit
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Redirecionamento
+ **Redirecionamento**
 
 Adicionar conteúdo a arquivos no Linux pode ser feito de várias maneiras. Linux tem alguns editores de texto que podem ser usados para adicionar conteúdo a um arquivo. No entanto, esse método requer alguma familiaridade com os comandos do editor de texto do Linux.
 
@@ -1915,7 +1915,7 @@ Para redirecionar informações para um arquivo existente, o usuário deve ter p
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Editor de Texto
+ **Editor de Texto**
 
 O principal editor de texto para Linux e UNIX é um programa chamado vi. Embora existam inúmeros editores disponíveis para Linux que vão desde o pequeno editor nano até o enorme editor emacs, existem várias vantagens para o editor vi:
 
@@ -2062,7 +2062,7 @@ Se você tiver um arquivo de texto aberto, saia dele executando o :q! comando. I
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Avançar
+ **Avançar**
 
 Esperamos que você tenha gostado desta breve introdução ao mundo do Linux. O conteúdo contido aqui se alinha ao conhecimento de Linux abrangido pelos objetivos do exame LPI Linux Essentials, mas há muito mais! Obtenha conhecimentos de Linux de nível de certificação para avançar sua carreira!
 NDG Linux Essentials
@@ -2133,7 +2133,7 @@ O IT Essentials cobre as habilitações fundamentais em informática e carreira 
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Linux para Cisco Certified CyberOps Associate
+ **Linux para Cisco Certified CyberOps Associate**
 
 Parabéns por ter terminado este curto curso introdutório Linux! Você acabou de aprender muitos conceitos do Linux que podem ajudá-lo a ir mais longe em sua jornada de TI. Destacamos que o Linux está em toda parte. Também enfatizamos que aprender Linux é benéfico para uma grande variedade de carreiras tecnológicas. Você pode considerar continuar seus estudos de TI em uma variedade de áreas, incluindo redes, IoT e uma das especialidades de TI mais exigentes atualmente, cibersegurança.
 
