@@ -5,8 +5,6 @@
 * Pseudocódigo
 * Linguagem de Programação
 
-![Fluxograma](img1.png)
-
 **Algoritmos**
  
 **-Início**
@@ -48,6 +46,7 @@
 
 **-Fim**
 
+![Fluxograma](img1.png)
 
 **Operadores Aritméticos**
  * Adição
