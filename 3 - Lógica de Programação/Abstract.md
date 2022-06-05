@@ -5,6 +5,8 @@
 * Pseudocódigo
 * Linguagem de Programação
 
+![Fluxograma](img1.png)
+
 **Algoritmos**
  
 **-Início**
